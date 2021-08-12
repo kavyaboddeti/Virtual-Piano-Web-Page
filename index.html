@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Virtual Piano</title>
+	<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+	integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<link rel="stylesheet" href="piano.css">
+	<script src="piano.js" defer></script>
+</head>
+<body>
+	<div align="center">
+	<h2>Virtual Piano</h2>
+	<br>
+	<div class="box" >
+	<div class="piano" align="center">
+	<div data-note="1" class="white key"></div>
+	<div data-note="5" class="black key"></div>
+	<div data-note="2" class="white key"></div>
+	<div data-note="4" class="black key"></div>
+	<div data-note="3" class="white key"></div>
+	<div data-note="4" class="white key"></div>
+	<div data-note="2" class="black key"></div>
+	<div data-note="5" class="white key"></div>
+	<div data-note="1" class="black key"></div>
+	<div data-note="2" class="white key"></div>
+	<div data-note="4" class="white key"></div>
+	<div data-note="5" class="black key"></div>
+	<div data-note="1" class="white key"></div>
+	<div data-note="2" class="black key"></div>
+	<div data-note="3" class="white key"></div>
+	</div>
+   </div>
+
+<br> <br>
+   <button onclick="colorchange()" class="button">Switch Color</button>
+   
+   <audio id="1" src="1stkey.wav"></audio>
+   <audio id="2" src="2ndkey.wav"></audio>
+   <audio id="3" src="3rdkey.wav"></audio>
+   <audio id="4" src="4thkey.wav"></audio>
+   <audio id="5" src="5thkey.wav"></audio>
+</div>
+</body>
+</html>
